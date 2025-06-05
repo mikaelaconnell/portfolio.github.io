@@ -1,79 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Mikaela Connell | Data Scientist</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-  <!-- Header -->
-  <header class="site-header">
-    <h1 class="site-title">Mikaela Connell</h1>
-    <h2 class="site-subtitle">Data Scientist</h2>
-    <a class="btn" href="assets/Connell_Resume.pdf" target="_blank">Resume</a>
-  </header>
-
-  <!-- About Section -->
+  <!-- About Me Section -->
   <section id="about">
-    <h2 class="section-title">About Me</h2>
-    <div class="about-content">
-      <img src="images/mikaela.JPG" alt="Mikaela Connell">
-      <div>
-        <p>I am a Data Scientist with a background in economics, healthcare, and data analytics. Based in New York City. Outside of work, I enjoy running (I'm currently training for my first Ironman 70.3), cooking, painting, and spending time with my dogs!</p>
-        <p>I am currently seeking roles in Data Analytics and Data Science.</p>
-        <h4>Recent News:</h4>
-        <ul>
-          <li><strong>June 2025</strong> – Beginning a Master's in Data Science at Harvard Extension School</li>
-          <li><strong>May 2025</strong> – Taking courses on Coursera and DeepLearning.AI to strengthen my data science skills</li>
-          <li><strong>April 2025</strong> – Joined Data Annotation as a freelance AI data analyst</li>
-          <li><strong>April 2025</strong> – Built a Bitcoin price prediction <a href="https://btc-price-predictor.streamlit.app/" target="_blank">streamlit dashboard</a></li>
-          <li><strong>Jan 2025</strong> – Began the Data Science Bootcamp at Flatiron School</li>
-        </ul>
+    <div class="container">
+      <h2 class="heading-underline">About Me</h2>
+      <div class="row">
+        <div class="col">
+          <img src="images/mikaela.JPG" alt="Mikaela Connell">
+          <div class="social-icons">
+            <a href="https://github.com/mikaelaconnell" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.strava.com/athletes/mikaela_connell" target="_blank"><i class="fab fa-strava"></i></a>
+            <a href="https://linkedin.com/in/mikaelaconnell" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="col">
+          <p>
+            I am a Data Scientist with a background in economics, healthcare, and data analytics. Based in New York City. Outside of work, I enjoy running (I'm currently training for my first Ironman 70.3), cooking, painting, and spending time with my dogs! I am currently seeking roles in Data Analytics and Data Science.
+          </p>
+
+          <h4>Recent News:</h4>
+          <ul>
+            <li><strong>June 2025</strong> – Starting Master's in Data Science at Harvard Extension School</li>
+            <li><strong>May 2025</strong> – Taking Coursera & DeepLearning.AI courses</li>
+            <li><strong>April 2025</strong> – Joined Data Annotation as AI Data Analyst</li>
+            <li><strong>April 2025</strong> – Built Bitcoin price prediction <a href="https://btc-price-predictor.streamlit.app/" target="_blank">Streamlit app</a></li>
+            <li><strong>Jan 2025</strong> – Began Data Science Bootcamp at Flatiron School</li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Experience Section -->
   <section id="experience">
-    <h2 class="section-title">Experience</h2>
-    <div class="experience-entry">
-      <div class="experience-date">April 2025 – Present</div>
-      <div class="experience-details">
-        <h3>Data Annotation</h3>
-        <h4>AI Data Analyst</h4>
-        <ul>
-          <li>Analyzing and annotating datasets to improve large language model performance.</li>
-          <li>Applying structured rubrics to assess model output and ensure quality.</li>
-          <li>Documenting evaluation workflows and supporting feedback loops between data and product teams.</li>
-        </ul>
+    <div class="container">
+      <h2 class="heading-underline">Experience</h2>
+      <div class="timeline">
+
+        <div class="timeline-entry">
+          <span class="timeline-date">April 2025 – Present</span>
+          <h3 class="timeline-title">Data Annotation</h3>
+          <h4 class="timeline-role">AI Data Analyst</h4>
+          <ul>
+            <li>Analyzing and annotating datasets to improve LLM performance.</li>
+            <li>Applying rubrics to assess model output quality.</li>
+          </ul>
+        </div>
+
+        <div class="timeline-entry">
+          <span class="timeline-date">Jan 2025 – April 2025</span>
+          <h3 class="timeline-title">Flatiron School</h3>
+          <h4 class="timeline-role">Data Science Student</h4>
+          <ul>
+            <li>Completed immersive bootcamp: Python, ML, SQL, stats.</li>
+            <li>Built data science projects in healthcare and crypto.</li>
+          </ul>
+        </div>
+
+        <div class="timeline-entry">
+          <span class="timeline-date">May 2022 – Dec 2024</span>
+          <h3 class="timeline-title">Memorial Sloan Kettering</h3>
+          <h4 class="timeline-role">Oncology Nurse</h4>
+          <ul>
+            <li>Delivered data-informed care using EHR and patient monitoring systems.</li>
+            <li>Used clinical data to support acute decision-making.</li>
+          </ul>
+        </div>
+
+        <div class="timeline-entry">
+          <span class="timeline-date">June 2018 – Sept 2019</span>
+          <h3 class="timeline-title">Metric Theory</h3>
+          <h4 class="timeline-role">Account Manager & Paid Search Analyst</h4>
+          <ul>
+            <li>Managed $1M+ annual ad spend for clients.</li>
+            <li>Optimized digital campaigns and analyzed audience data.</li>
+          </ul>
+        </div>
+
+        <div class="timeline-entry">
+          <span class="timeline-date">Sept 2014 – May 2018</span>
+          <h3 class="timeline-title">Claremont McKenna College</h3>
+          <h4 class="timeline-role">BA in Economics</h4>
+          <ul>
+            <li>Courses in data structures, stats, econometrics.</li>
+            <li>Senior thesis: <a href="https://scholarship.claremont.edu/cmc_theses/1743/" target="_blank">View thesis</a></li>
+          </ul>
+        </div>
       </div>
     </div>
-    <div class="experience-entry">
-      <div class="experience-date">Jan 2025 – April 2025</div>
-      <div class="experience-details">
-        <h3>Flatiron School</h3>
-        <h4>Data Science Student</h4>
+  </section>
+
+  <!-- Education Section -->
+<section id="education">
+  <div class="container">
+    <h2 class="heading-underline">Education</h2>
+    <div class="timeline">
+
+      <div class="timeline-entry">
+        <span class="timeline-date">June 2025 – Present</span>
+        <h3 class="timeline-title">Harvard Extension School</h3>
+        <h4 class="timeline-role">Master’s in Data Science</h4>
         <ul>
-          <li>Completed intensive training in Python, Statistics, Machine Learning, and Data Visualization.</li>
-          <li>Developed machine learning projects to improve patient outcomes and business decisions.</li>
+          <li>Graduate program focused on statistical modeling, machine learning, and data systems.</li>
+          <li>Currently enrolled and pursuing advanced coursework in applied data science and analytics.</li>
         </ul>
+      </div>
+
+      <div class="timeline-entry">
+        <span class="timeline-date">Dec 2024 – April 2025</span>
+        <h3 class="timeline-title">Flatiron School</h3>
+        <h4 class="timeline-role">Certificate in Data Science</h4>
+        <ul>
+          <li>Full-time bootcamp: Python, machine learning, SQL, and data visualization.</li>
+          <li>Projects include a Bitcoin prediction dashboard and healthcare analytics models.</li>
+        </ul>
+      </div>
+
+      <div class="timeline-entry">
+        <span class="timeline-date">Jan 2020 – May 2021</span>
+        <h3 class="timeline-title">NYU Rory Meyers College of Nursing</h3>
+        <h4 class="timeline-role">Accelerated BSN</h4>
+        <ul>
+          <li>Graduated <em>summa cum laude</em>. Clinical rotations at top NYC hospitals.</li>
+          <li>Developed critical thinking and patient care skills now applied in healthtech.</li>
+        </ul>
+      </div>
+
+      <div class="timeline-entry">
+        <span class="timeline-date">Sept 2014 – May 2018</span>
+        <h3 class="timeline-title">Claremont McKenna College</h3>
+        <h4 class="timeline-role">BA in Economics</h4>
+        <ul>
+          <li>Studied economics with courses in statistics, programming, and econometrics.</li>
+          <li>Varsity lacrosse athlete and completed senior thesis on consumer behavior in e-commerce.</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- Projects Section -->
+<section id="projects">
+  <div class="container">
+    <h2 class="heading-underline">Projects</h2>
+
+    <div class="timeline">
+
+      <div class="timeline-entry">
+        <span class="timeline-date">April 2025</span>
+        <h3 class="timeline-title">MacroBTC Insights</h3>
+        <h4 class="timeline-role">Bitcoin Price Prediction Dashboard</h4>
+        <ul>
+          <li>Built a Streamlit app to forecast Bitcoin prices using macroeconomic indicators.</li>
+          <li>Integrated time-series modeling, user inputs, and interactive data visualizations.</li>
+          <li><a href="https://btc-price-predictor.streamlit.app/" target="_blank">View App →</a></li>
+        </ul>
+      </div>
+
+      <div class="timeline-entry">
+        <span class="timeline-date">March 2025</span>
+        <h3 class="timeline-title">Breast Cancer Outcomes Prediction</h3>
+        <h4 class="timeline-role">Survival Analysis Model</h4>
+        <ul>
+          <li>Used clinical features to predict 5-year survival in breast cancer patients.</li>
+          <li>Applied logistic regression, feature engineering, and SHAP explainability.</li>
+          <li><a href="https://github.com/mikaelaconnell/breast-cancer-prediction" target="_blank">View on GitHub →</a></li>
+        </ul>
+      </div>
+
+      <div class="timeline-entry">
+        <span class="timeline-date">Feb 2025</span>
+        <h3 class="timeline-title">Vehicle Price Forecasting</h3>
+        <h4 class="timeline-role">Used Car Sales Regression Model</h4>
+        <ul>
+          <li>Predicted vehicle resale prices using linear regression and random forest models.</li>
+          <li>Performed EDA and feature importance analysis to improve accuracy.</li>
+          <li><a href="https://github.com/mikaelaconnell/vehicle-price-model" target="_blank">View on GitHub →</a></li>
+        </ul>
+      </div>
+
+      <div class="timeline-entry">
+        <span class="timeline-date">Jan 2025</span>
+        <h3 class="timeline-title">Lung Cancer Classification</h3>
+        <h4 class="timeline-role">X-ray Image Classifier</h4>
+        <ul>
+          <li>Built a CNN model to classify lung cancer from chest X-ray images.</li>
+          <li>Used transfer learning and OpenCV for image preprocessing.</li>
+          <li><a href="https://github.com/mikaelaconnell/lung-cancer-cnn" target="_blank">View on GitHub →</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- Blog Section -->
+  <section id="blog">
+    <div class="container">
+      <h2 class="heading-underline">Blog</h2>
+      <div class="blog-posts">
+
+        <div class="blog-entry">
+          <h3><a href="https://medium.com/@mikaelac14/from-oncology-nurse-to-data-scientist-why-i-made-the-switch-e12fdd6e4b58" target="_blank">From Oncology Nurse to Data Scientist</a></h3>
+          <ul>
+            <li>How I transitioned from bedside to data</li>
+            <li>What I learned from my career pivot</li>
+          </ul>
+        </div>
+
+        <div class="blog-entry">
+          <h3><a href="https://medium.com/@mikaelac14/why-health-tech-companies-using-ai-need-more-clinicians-in-data-roles-958440a53ad9" target="_blank">Why Health Tech Needs More Clinicians in Data</a></h3>
+          <ul>
+            <li>The value of frontline insight in AI systems</li>
+            <li>How my clinical experience informs data work</li>
+          </ul>
+        </div>
+
+        <p style="margin-top: 30px;">
+          <a href="https://medium.com/@mikaelac14" target="_blank">View All Posts →</a>
+        </p>
       </div>
     </div>
-    <div class="experience-entry">
-      <div class="experience-date">May 2022 – Dec 2024</div>
-      <div class="experience-details">
-        <h3>Memorial Sloan Kettering</h3>
-        <h4>Oncology Nurse</h4>
-        <ul>
-          <li>Provided data-driven care using EHR systems and patient monitoring tools.</li>
-          <li>Interpreted patient data to inform decision making in acute settings.</li>
-        </ul>
-      </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Get in Touch</h2>
+      <p>Email: <a href="mailto:mconnell18@students.claremontmckenna.edu">mconnell18@students.claremontmckenna.edu</a></p>
+      <p>Based in New York City | Open to remote or hybrid roles</p>
     </div>
   </section>
 
 </body>
 </html>
+
